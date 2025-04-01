@@ -9,7 +9,7 @@ const StudentHistory = () => {
   const fetchHistory = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8000/api/v1/user/history",
+        "https://jobportal-9z5q.onrender.com/api/v1/user/history",
         { withCredentials: true }
       );
       console.log(response.data);
